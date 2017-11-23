@@ -22,6 +22,8 @@ func main() {
 			return
 		}
 
+		log.Printf("Got request for <%s>.\n", pkg)
+
 		t.Execute(w, struct {
 			Pkg string
 			URI string
