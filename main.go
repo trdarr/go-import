@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-const port = "8080"
+const port = "80"
 
 func main() {
 	t, err := template.ParseFiles("index.gohtml")

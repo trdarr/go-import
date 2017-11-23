@@ -11,3 +11,4 @@ FROM alpine
 WORKDIR /app
 COPY --from=build /go/src/app .
 ENTRYPOINT ./app
+EXPOSE 80
